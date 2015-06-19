@@ -1,0 +1,14 @@
+features	contains the values held in features.txt
+extract_features	contains the specific columns for mean and standard deviation
+x_test		contains the values held in x_test.txt
+y_test		contains the values held in y_test.txt
+subject_test	contains the values held in subject_test.txt
+activity_labels	contains the specific activity labels required
+x_train		contains the values held in x_train.txt
+y_train		contains the values held in y_train.txt
+subject_train	contains the values held in subject_train.txt
+test_data	The column binding of subject_test, x_test, and y_test
+train_data	the column binding of subject_train, x_train, and y_train
+data		the row binding of the testing and training data
+melted_data	melting the training and testing data
+tidy_data	arranging the data to match the definition of tidy data
